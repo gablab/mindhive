@@ -18,4 +18,7 @@ then
     module add torque
 fi
 
+# Project specific environments
+source .projects
+
 
