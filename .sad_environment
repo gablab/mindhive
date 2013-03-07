@@ -1,4 +1,4 @@
-#! bin/bash
+#!/bin/bash
 
 # Source Nipype, FSL, Freesurfer
 source /software/python/setup-nipype-0.7.sh
