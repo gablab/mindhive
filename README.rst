@@ -9,15 +9,13 @@ Environment Setup
 
 .. _github: http://www.github.com
 
-2. Setup_ git on mindhive
-   Don't forget to setup your ssh key_ ! 
+2. Setup_ git on mindhive. Don't forget to setup your ssh key_ ! 
 
 .. _Setup: https://help.github.com/articles/set-up-git
 
 .. _key: https://help.github.com/articles/generating-ssh-keys
 
-3. Fork the mindhive_ repository 
-   Then in a terminal:
+3. Fork the mindhive_ repository. Then in a terminal:
 
 .. _mindhive: http://github.com/gablab/mindhive
 
@@ -40,11 +38,13 @@ Environment Setup
 Examples
 ^^^^^^^^
 
-Set your project environment to the SAD project
+Set your project environment to the SAD project:
 
 >>> sad_env
 
-Update the mindhive repository for the latest project environments
+You should see your prompt say "SAD"
+
+Update the mindhive repository for the latest project environments:
 
 >>> cd /place/of/repository
 >>> git fetch upstream
@@ -63,11 +63,9 @@ To add an environment to the mindhive repository, make a separate environment sh
 
 Commit and push the file up to your repository
 
-.. code::
-
-   cd /place/of/mindhive/repo
-   git add .my_project_environment
-   git commit -m "added my project's environment"
-   git push origin master
+>>> cd /place/of/mindhive/repo
+>>> git add .my_project_environment
+>>> git commit -m "added my project's environment"
+>>> git push origin master
 
 Finally, send a pull request to gablab/mindhive for someone else to review and merge your changes. 
