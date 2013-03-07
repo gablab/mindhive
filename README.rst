@@ -10,18 +10,17 @@ Environment Setup
 .. _github: http://www.github.com
 
 2. Setup_ git on mindhive
+   Don't forget to setup your ssh key_ ! 
 
 .. _Setup: https://help.github.com/articles/set-up-git
-
-   Don't forget to setup your ssh key_ ! 
 
 .. _key: https://help.github.com/articles/generating-ssh-keys
 
 3. Fork the mindhive_ repository 
+   Then in a terminal:
 
 .. _mindhive: http://github.com/gablab/mindhive
 
-   Then in a terminal:
 
 >>> cd place/to/keep/repository
 >>> git clone https://github.com/your_user_name/mindhive.git
