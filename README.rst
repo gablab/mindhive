@@ -77,3 +77,11 @@ Remember to add a symlink to your newest environment file in your home folder, a
 
 Finally, send a pull request to gablab/mindhive for someone else to review and merge your changes. 
 
+GIT Tutorials
+^^^^^^^^^^^^^
+
+Here are some great GIT tutorials:
+
+http://nbviewer.ipython.org/urls/github.com/fperez/reprosw/raw/master/Version%2520Control.ipynb
+
+http://mluessi.github.com/intro-to-git-and-github/#slide1
