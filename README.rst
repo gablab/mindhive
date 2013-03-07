@@ -65,6 +65,7 @@ Commit and push the file up to your repository
 
 >>> cd /place/of/mindhive/repo
 >>> git add .my_project_environment
+>>> git add .projects
 >>> git commit -m "added my project's environment"
 >>> git push origin master
 
