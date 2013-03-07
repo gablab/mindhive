@@ -69,4 +69,11 @@ Commit and push the file up to your repository
 >>> git commit -m "added my project's environment"
 >>> git push origin master
 
+Remember to add a symlink to your newest environment file in your home folder, and test it.
+
+>>> cd
+>>> ln -s /place/of/mindhive/repository/.my_project_environment ./
+>>> my_prohect_env
+
 Finally, send a pull request to gablab/mindhive for someone else to review and merge your changes. 
+
