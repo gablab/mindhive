@@ -2,20 +2,20 @@
 
 function sad_env()
 {
-source .sad_environment
+source .env/.sad_environment
 }
 
 function mtbi_env()
 {
-source .mtbi_environment
+source .env/.mtbi_environment
 }
 
 function eegfmri_env()
 {
-source .eegfmri_environment
+source .env/.eegfmri_environment
 }
 
 function gates_env()
 {
-source .gates_environment
+source .env/.gates_environment
 }

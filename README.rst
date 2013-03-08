@@ -28,7 +28,13 @@ Environment Setup
 4. Symlink to the repository in your home folder
 
 >>> cd
->>> ln -s place/of/repository/mindhive/* ./
+>>> ln -s place/of/repository/mindhive/.bashrc ./
+>>> ln -s place/of/repository/mindhive/.bash_profile ./
+>>> ln -s place/of/repository/mindhive/.projects ./
+>>> ln -s place/of/repository/mindhive/.nodeload ./
+>>> ln -s place/of/repository/mindhive/.env ./
+
+
 
 5. Make sure you have a symlinked .bash_profile and .bashrc:
 
@@ -50,32 +56,27 @@ Update the mindhive repository for the latest project environments:
 >>> git fetch upstream
 >>> git merge upstream/master
 
-To add an environment to the mindhive repository, make a separate environment shell script (called .my_project_environment in the example) in the mindhive repository folder. Then edit the .projects file to add a function:
+To add an environment to the mindhive repository, make a separate environment shell script in the .env (called .my_project_environment in the example) in the mindhive repository folder. Then edit the .projects file to add a function:
 
 .. code::
   
    function my_project_env()
    {
  
-   source .my_project_environment
+   source .env/.my_project_environment
 
    }
 
 Commit and push the file up to your repository
 
 >>> cd /place/of/mindhive/repo
->>> git add .my_project_environment
+>>> git add .env/.my_project_environment
 >>> git add .projects
 >>> git commit -m "added my project's environment"
 >>> git push origin master
 
-Remember to add a symlink to your newest environment file in your home folder, and test it.
 
->>> cd
->>> ln -s /place/of/mindhive/repository/.my_project_environment ./
->>> my_prohect_env
-
-Finally, send a pull request to gablab/mindhive for someone else to review and merge your changes. 
+Test and send a pull request to gablab/mindhive for someone else to review and merge your changes. 
 
 GIT Tutorials
 ^^^^^^^^^^^^^
