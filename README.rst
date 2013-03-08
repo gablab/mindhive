@@ -57,7 +57,7 @@ To add an environment to the mindhive repository, make a separate environment sh
    function my_project_env()
    {
  
-   source .env/.my_project_environment
+   source ~/.env/.my_project_environment
 
    }
 
