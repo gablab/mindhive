@@ -25,16 +25,10 @@ Environment Setup
 >>> cd mindhive
 >>> git remote add upstream https://github.com/gablab/mindhive.git
 
-4. Symlink to the repository in your home folder
+4. Set up symlinks to the repository in your home folder
 
->>> cd
->>> ln -s place/of/repository/mindhive/.bashrc ./
->>> ln -s place/of/repository/mindhive/.bash_profile ./
->>> ln -s place/of/repository/mindhive/.projects ./
->>> ln -s place/of/repository/mindhive/.nodeload ./
->>> ln -s place/of/repository/mindhive/.env ./
-
-
+>>> cd /place/of/repository
+>>> python setup.py
 
 5. Make sure you have a symlinked .bash_profile and .bashrc:
 
