@@ -19,3 +19,8 @@ function gates_env()
 {
 source ~/.env/.gates_environment
 }
+
+function efdev_env()
+{
+source ~/.env/.efdev_environment
+}
