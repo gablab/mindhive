@@ -14,3 +14,8 @@ function eegfmri_env()
 {
 source .eegfmri_environment
 }
+
+function gates_env()
+{
+source .gates_environment
+}
