@@ -5,6 +5,12 @@ function sad_env()
 source ~/.env/.sad_environment
 }
 
+function bipsdev_env()
+{
+source ~/.env/.bips_ak_env
+}
+
+
 function mtbi_env()
 {
 source ~/.env/.mtbi_environment
