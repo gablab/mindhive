@@ -10,6 +10,10 @@ function bipsdev_env()
 source ~/.env/.bips_ak_env
 }
 
+function mieword_env()
+{
+source ~/.env/.mieword_environment
+}
 
 function mtbi_env()
 {
