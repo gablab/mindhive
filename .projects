@@ -34,3 +34,13 @@ function efdev_env()
 {
 source ~/.env/.efdev_environment
 }
+
+function rhythm_env()
+{
+source ~/.env/.rhythm_environment
+}
+
+function rhythmants_env()
+{
+source ~/.env/.rhythm_ants_environment
+}
