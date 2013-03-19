@@ -44,3 +44,10 @@ function rhythmants_env()
 {
 source ~/.env/.rhythm_ants_environment
 }
+
+function BILD_env()
+{
+
+source ~/.env/.BILD_environment
+
+}
