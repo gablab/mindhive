@@ -24,3 +24,10 @@ function efdev_env()
 {
 source ~/.env/.efdev_environment
 }
+
+function BILD_env()
+{
+
+source ~/.env/.BILD_environment
+
+}
