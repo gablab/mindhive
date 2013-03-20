@@ -13,7 +13,7 @@ export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
 export PATH=/software/afni:$PATH
 export PATH=/software/matlab_versions/2010b/bin/:$PATH
 export PATH=/software/DTIPrep/130206:$PATH
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/software/DTIPrep/130206:/software/local/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/software/DTIPrep/130206:/software/local/lib:$ANTSPATH/lib
 alias matlab="matlab -singleCompThread"
 # Freesurfer
 export SUBJECTS_DIR=/mindhive/xnat/surfaces/MIE_WORD
