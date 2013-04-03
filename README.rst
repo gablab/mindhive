@@ -1,4 +1,4 @@
-========
+ ========
 Mindhive
 ========
 
@@ -9,28 +9,35 @@ Environment Setup
 
 .. _github: http://www.github.com
 
-2. Setup_ git on mindhive. Don't forget to setup your ssh key_ ! 
+2. Setup_ git on mindhive. 
 
 .. _Setup: https://help.github.com/articles/set-up-git
 
+3. Setup your ssh key_ ! Follow steps 1 & 2 in 'github:help':  
+
 .. _key: https://help.github.com/articles/generating-ssh-keys
 
-3. Fork the mindhive_ repository. Then in a terminal:
+
+>>>cat id_dsa.pub
+copy the key to your github account settings-->SSH Keys-->add SSH key
+
+
+4. Fork the mindhive_ repository. Then in a terminal:
 
 .. _mindhive: http://github.com/gablab/mindhive
 
 
 >>> cd place/to/keep/repository
->>> git clone https://github.com/your_user_name/mindhive.git
+>>> git clone git@github.com/your_user_name/mindhive.git
 >>> cd mindhive
 >>> git remote add upstream https://github.com/gablab/mindhive.git
 
-4. Set up symlinks to the repository in your home folder
+5. Set up symlinks to the repository in your home folder
 
 >>> cd /place/of/repository
 >>> python setup.py
 
-5. Make sure you have a symlinked .bash_profile and .bashrc:
+6. Make sure you have a symlinked .bash_profile and .bashrc:
 
 >>> cd
 >>> ls -la
