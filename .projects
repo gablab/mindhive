@@ -24,3 +24,8 @@ function efdev_env()
 {
 source ~/.env/.efdev_environment
 }
+function lap_env()
+{
+ source ~/.env/.lap_environment
+}
+
