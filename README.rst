@@ -17,9 +17,9 @@ Environment Setup
 
 .. _key: https://help.github.com/articles/generating-ssh-keys
 
+>>> cat id_dsa.pub
 
->>>cat id_dsa.pub
-copy the key to your github account settings-->SSH Keys-->add SSH key
+  copy the key to your github account settings-->SSH Keys-->add SSH key
 
 
 4. Fork the mindhive_ repository. Then in a terminal:
