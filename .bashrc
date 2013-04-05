@@ -24,5 +24,6 @@ fi
 
 # Project specific environments
 source ~/.projects
+source ~/.custom_env
 
 
