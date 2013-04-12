@@ -18,5 +18,6 @@ export SUBJECTS_DIR=/mindhive/xnat/surfaces/sad
 
 # Project name for prompt
 export project_name="SDEV"
+module add matlab
 
 
