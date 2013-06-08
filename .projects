@@ -57,3 +57,10 @@ function lap_env()
  source ~/.env/.lap_environment
 }
 
+function CASL_env()
+{
+
+source ~/.env/.CASL_environment
+
+}
+
