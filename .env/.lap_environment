@@ -12,12 +12,9 @@ export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
 export PATH=/software/afni:$PATH
 export PATH=/software/DTIPrep/1.1.6:$PATH
 export PATH=/software/matlab_versions/2010b/bin/:$PATH
-export PATH=$PATH:/software/python/EPD/7.3/bin
 
 # Freesurfer
-export SUBJECTS_DIR=/mindhive/xnat/surfaces/efdev
+export SUBJECTS_DIR=/mindhive/xnat/surfaces/LAP
 
 # Project name for prompt
-export project_name="efdev"
-
-
+export project_name="LAP"
