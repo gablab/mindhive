@@ -3,13 +3,13 @@
 # Source Nipype, FSL, Freesurfer
 source /software/python/setup-nipype-0.7.sh
 source /etc/fsl/5.0/fsl.sh
-source /software/common/bin/fss 5.2.0 > /dev/null
+source /software/common/bin/fss 5.3.0 > /dev/null
 
 # add PATHs
-export ANTSPATH=/software/ANTS/versions/130123
+export ANTSPATH=/software/ANTS/versions/130509
 export PATH=$ANTSPATH:$PATH
 export LD_LIBRARY_PATH=$ANTSPATH:$LD_LIBRARY_PATH
-export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
+#export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
 export PATH=/software/afni:$PATH
 export PATH=/software/DTIPrep/130206:$PATH
 
