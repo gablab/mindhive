@@ -5,6 +5,16 @@ function sad_env()
 source ~/.env/.sad_environment
 }
 
+function bipsdev_env()
+{
+source ~/.env/.bips_ak_env
+}
+
+function mieword_env()
+{
+source ~/.env/.mieword_environment
+}
+
 function mtbi_env()
 {
 source ~/.env/.mtbi_environment
@@ -28,4 +38,33 @@ source ~/.env/.efdev_environment
 function satra_env()
 {
 source ~/.env/.satra_dev_environment
+}
+
+function rhythm_env()
+{
+source ~/.env/.rhythm_environment
+}
+
+function rhythmants_env()
+{
+source ~/.env/.rhythm_ants_environment
+}
+
+function BILD_env()
+{
+
+source ~/.env/.BILD_environment
+
+}
+
+function lap_env()
+{
+ source ~/.env/.lap_environment
+}
+
+function CASL_env()
+{
+
+source ~/.env/.CASL_environment
+
 }
