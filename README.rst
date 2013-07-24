@@ -19,6 +19,10 @@ Environment Setup
 
 >>> cat id_dsa.pub
 
+  or 
+  
+>>> cat id_rsa.pub
+
   copy the key to your github account settings-->SSH Keys-->add SSH key
 
 
@@ -51,7 +55,7 @@ Set your project environment to the SAD project:
 
 You should see your prompt say "SAD"
 
-Update the mindhive repository for the latest project environments:
+Create a pointer to the mindhive repository for the latest project environments:
 
 >>> cd /place/of/repository
 >>> git fetch upstream
