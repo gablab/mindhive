@@ -19,3 +19,11 @@ function gates_env()
 {
 source ~/.env/.gates_environment
 }
+
+
+function bipsdr_env()
+{
+
+source ~/.env/.bipsdr_environment
+
+}
