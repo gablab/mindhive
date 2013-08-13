@@ -89,11 +89,13 @@ Adding SPM path
 To add spm paths, setup an environment variable in your project environment file.
 
 .. code::
+
     export SPM_PATH=/software/spm8_r5236/
 
 and then edit $HOME/matlab/startup.m to include these lines (remove any lines adding SPM path)
 
 .. code::
+
     spm_path = getenv('SPM_PATH');
     if spm_path, 
        addpath(spm_path);
