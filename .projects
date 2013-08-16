@@ -69,6 +69,7 @@ source ~/.env/.CASL_environment
 
 }
 
+<<<<<<< HEAD
 
 
 function bipsdr_env()
@@ -78,3 +79,11 @@ source ~/.env/.bipsdr_environment
 
 }
 
+=======
+function rtsmoking_env()
+{
+
+source ~/.env/.rtsmoking_environment
+
+}
+>>>>>>> upstream/master
