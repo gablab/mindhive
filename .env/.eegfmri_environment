@@ -3,7 +3,9 @@
 # Source Nipype, FSL, Freesurfer
 source /software/python/setup-nipype-0.7.sh
 source /etc/fsl/5.0/fsl.sh
-source /software/common/bin/fss 5.2.0 > /dev/null
+<<<<<<< HEAD
+source /software/common/bin/fss 5.3.0 > /dev/null
+>>>>>>> 1d98d12772b3ade6aa3f2f8b4f188314f8c9a427
 
 # add PATHs
 export PATH=/software/ANTS/versions/120222/bin/:$PATH
