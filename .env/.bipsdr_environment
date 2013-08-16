@@ -1,0 +1,3 @@
+project_name="BIPS_"$project_name
+export PYTHONPATH=~doreenr/lib/python2.7/site-packages
+export PATH=~doreenr/BrainImagingPipelines/bin:$PATH

@@ -30,6 +30,7 @@ function gates_env()
 source ~/.env/.gates_environment
 }
 
+<<<<<<< HEAD
 function efdev_env()
 {
 source ~/.env/.efdev_environment
@@ -71,6 +72,8 @@ source ~/.env/.CASL_environment
 
 <<<<<<< HEAD
 
+=======
+>>>>>>> 1d98d12772b3ade6aa3f2f8b4f188314f8c9a427
 
 function bipsdr_env()
 {
@@ -78,6 +81,7 @@ function bipsdr_env()
 source ~/.env/.bipsdr_environment
 
 }
+<<<<<<< HEAD
 
 =======
 function rtsmoking_env()
@@ -87,3 +91,5 @@ source ~/.env/.rtsmoking_environment
 
 }
 >>>>>>> upstream/master
+=======
+>>>>>>> 1d98d12772b3ade6aa3f2f8b4f188314f8c9a427
