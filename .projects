@@ -73,17 +73,6 @@ source ~/.env/.CASL_environment
 <<<<<<< HEAD
 
 =======
->>>>>>> 1d98d12772b3ade6aa3f2f8b4f188314f8c9a427
-
-function bipsdr_env()
-{
-
-source ~/.env/.bipsdr_environment
-
-}
-<<<<<<< HEAD
-
-=======
 function rtsmoking_env()
 {
 
