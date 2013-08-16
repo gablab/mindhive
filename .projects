@@ -68,3 +68,10 @@ function CASL_env()
 source ~/.env/.CASL_environment
 
 }
+
+function rtsmoking_env()
+{
+
+source ~/.env/.rtsmoking_environment
+
+}
