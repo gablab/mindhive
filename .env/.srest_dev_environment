@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Source Nipype, FSL, Freesurfer
+#source /software/python/setup-nipype-0.7.sh
+source /etc/fsl/5.0/fsl.sh
+source /software/common/bin/fss 5.3.0 > /dev/null
+
+# add PATHs
+export ANTSPATH=/software/ANTS/versions/130823
+export DTIPrepPATH=/software/DTIPrep/130630
+export PATH=$DTIPrepPATH:$ANTSPATH:$PATH
+export PATH=/software/afni:$PATH
+
+export PATH=/software/python/anaconda/bin:$PATH
+source activate resting
+#export LD_LIBRARY_PATH=/software/python/anaconda/envs/devpype/lib/vtk-5.10/:$LD_LIBRARY_PATH
+
+# Freesurfer
+export SUBJECTS_DIR=/mindhive/xnat/surfaces/sad
+
+# Project name for prompt
+export project_name="SRDEV"
+module add matlab
+
+
