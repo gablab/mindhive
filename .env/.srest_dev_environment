@@ -8,8 +8,8 @@ source /software/common/bin/fss 5.3.0 > /dev/null
 # add PATHs
 export ANTSPATH=/software/ANTS/versions/130823
 export DTIPrepPATH=/software/DTIPrep/130630
-export AFNIPATH=/software/src/afni130917
-export PATH=$DTIPrepPATH:$ANTSPATH:$PATH
+export AFNIPATH=/usr/lib/afni/bin
+export PATH=$AFNIPATH:$DTIPrepPATH:$ANTSPATH:$PATH
 
 export PATH=/software/python/anaconda/bin:$PATH
 source activate resting
