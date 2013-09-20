@@ -40,6 +40,11 @@ function satra_env()
 source ~/.env/.satra_dev_environment
 }
 
+function srest_env()
+{
+source ~/.env/.srest_dev_environment
+}
+
 function rhythm_env()
 {
 source ~/.env/.rhythm_environment
