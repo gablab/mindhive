@@ -81,9 +81,9 @@ source ~/.env/.rtsmoking_environment
 
 }
 
-function lyman_env()
+function lyman_rt_env()
 {
 
-source ~/.env/.lyman_environment
+source ~/.env/.lyman_rtsmoking_environment
 
 }
