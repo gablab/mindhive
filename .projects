@@ -80,7 +80,6 @@ function rtsmoking_env()
 source ~/.env/.rtsmoking_environment
 
 }
-<<<<<<< HEAD
 
 function lyman_env()
 {
@@ -88,5 +87,3 @@ function lyman_env()
 source ~/.env/.lyman_environment
 
 }
-=======
->>>>>>> upstream/master
