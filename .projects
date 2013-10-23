@@ -75,3 +75,10 @@ function rtsmoking_env()
 source ~/.env/.rtsmoking_environment
 
 }
+
+function lyman_env()
+{
+
+source ~/.env/.lyman_environment
+
+}
