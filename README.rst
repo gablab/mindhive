@@ -19,6 +19,10 @@ Environment Setup
 
 >>> cat id_dsa.pub
 
+  or 
+  
+>>> cat id_rsa.pub
+
   copy the key to your github account settings-->SSH Keys-->add SSH key
 
 
@@ -51,7 +55,7 @@ Set your project environment to the SAD project:
 
 You should see your prompt say "SAD"
 
-Update the mindhive repository for the latest project environments:
+Create a pointer to the mindhive repository for the latest project environments:
 
 >>> cd /place/of/repository
 >>> git fetch upstream
@@ -78,6 +82,24 @@ Commit and push the file up to your repository
 
 
 Test and send a pull request to gablab/mindhive for someone else to review and merge your changes. 
+
+Adding SPM path
+^^^^^^^^^^^^^^^
+
+To add spm paths, setup an environment variable in your project environment file.
+
+.. code::
+
+    export SPM_PATH=/software/spm8_r5236/
+
+and then edit $HOME/matlab/startup.m to include these lines (remove any lines adding SPM path)
+
+.. code::
+
+    spm_path = getenv('SPM_PATH');
+    if spm_path, 
+       addpath(spm_path);
+    end
 
 GIT Tutorials
 ^^^^^^^^^^^^^

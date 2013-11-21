@@ -35,6 +35,16 @@ function efdev_env()
 source ~/.env/.efdev_environment
 }
 
+function satra_env()
+{
+source ~/.env/.satra_dev_environment
+}
+
+function srest_env()
+{
+source ~/.env/.srest_dev_environment
+}
+
 function rhythm_env()
 {
 source ~/.env/.rhythm_environment
@@ -71,3 +81,16 @@ source ~/.env/.bipsdr_environment
 
 }
 
+function rtsmoking_env()
+{
+
+source ~/.env/.rtsmoking_environment
+
+}
+
+function lyman_rt_env()
+{
+
+source ~/.env/.lyman_rtsmoking_environment
+
+}
