@@ -87,3 +87,11 @@ function lyman_rt_env()
 source ~/.env/.lyman_rtsmoking_environment
 
 }
+
+function rtsz_env()
+{
+
+source ~/.env/.rtsz_environment
+
+}
+
