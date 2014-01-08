@@ -6,7 +6,7 @@ source /etc/fsl/5.0/fsl.sh
 source /software/common/bin/fss 5.3.0 > /dev/null
 
 # add PATHs
-export ANTSPATH=/software/ANTS/versions/130701
+export ANTSPATH=/software/ANTS/versions/140107
 export DTIPrepPATH=/software/DTIPrep/130630
 export PATH=$DTIPrepPATH:$ANTSPATH:$PATH
 export PATH=/software/afni:$PATH
