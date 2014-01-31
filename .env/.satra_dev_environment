@@ -18,6 +18,10 @@ export LD_LIBRARY_PATH=/software/python/anaconda/envs/devpype/lib/vtk-5.10/:$LD_
 # Freesurfer
 export SUBJECTS_DIR=/mindhive/xnat/surfaces/sad
 
+# Multithreading
+export MKL_NUM_THREADS=4
+export OMP_NUM_THREADS=4
+
 # Project name for prompt
 export project_name="SDEV"
 module add matlab
