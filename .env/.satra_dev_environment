@@ -22,6 +22,11 @@ export SUBJECTS_DIR=/mindhive/xnat/surfaces/sad
 export MKL_NUM_THREADS=4
 export OMP_NUM_THREADS=4
 
+# Mindboggle
+MINDBOGGLE_TOOLS=/gablab/p/satra/scripts/mindboggle/mindboggle_tools/bin
+export MINDBOGGLE_TOOLS
+export PATH=$PATH:$MINDBOGGLE_TOOLS
+
 # Project name for prompt
 export project_name="SDEV"
 module add matlab
