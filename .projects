@@ -1,5 +1,25 @@
 #! /bin/bash
 
+function te_env()
+{
+source ~/.env/.testeffect_environment
+}
+
+function asdadhd_env()
+{
+source ~/.env/.asdadhd_environment
+}
+
+function miepic_env()
+{
+source ~/.env/.miepic_environment
+}
+
+function bgfu_env()
+{
+source ~/.env/.bgfu_environment
+}
+
 function sad_env()
 {
 source ~/.env/.sad_environment

@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Source Nipype, FSL, Freesurfer
+source /software/python/setup-nipype-0.7.sh
+source /etc/fsl/5.0/fsl.sh
+source /software/common/bin/fss 5.1.0 > /dev/null
+
+# add PATHs
+export PATH=/software/ANTS/versions/120222/bin/:$PATH
+export ANTSPATH=/software/ANTS/versions/120222/bin/
+export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
+export PATH=/software/afni:$PATH
+export PATH=/software/DTIPrep/1.1.6:$PATH
+export PATH=/software/bxhtools/bxh_1.9.12.2/bin/:$PATH
+export PATH=$PATH:/software/python/EPD/7.3/bin
+export PATH=/software/matlab_versions/2010b/bin/:$PATH
+export SPM_PATH=/software/spm8_r5236/
+
+# Freesurfer
+export SUBJECTS_DIR=/mindhive/xnat/surfaces/MIE_PIC
+
+# Project name for prompt
+export project_name="MIEPIC"
+
+
