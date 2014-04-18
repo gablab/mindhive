@@ -94,6 +94,13 @@ source ~/.env/.CASL_environment
 
 }
 
+function bipsdr_env()
+{
+
+source ~/.env/.bipsdr_environment
+
+}
+
 function rtsmoking_env()
 {
 
