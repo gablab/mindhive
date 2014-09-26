@@ -95,3 +95,8 @@ source ~/.env/.rtsz_environment
 
 }
 
+function omdev_env()
+{
+
+source ~/.env/.omdev_environment
+}
