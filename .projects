@@ -120,3 +120,8 @@ function omdev_env()
 
 source ~/.env/.omdev_environment
 }
+
+function voice_env()
+{
+source ~/.env/.voice_environment
+}
