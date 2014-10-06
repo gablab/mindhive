@@ -6,8 +6,9 @@ module add openmind/ants/2.1.0-1.c0c854
 module add openmind/freesurfer/5.3.0 
 module add openmind/fsl/5.0.7
 module add openmind/git/1.9.3
+module add openmind/c3d/1.0.0
 
-module add openmind/miniconda/3.5.2
+module add openmind/miniconda/3.7.0
 export CONDA_ENVS_PATH=/om/project/voice/env/
 source activate voice_env 
 
