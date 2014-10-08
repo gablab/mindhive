@@ -15,6 +15,7 @@ source activate voice_env
 # Multithreading
 export MKL_NUM_THREADS=4
 export OMP_NUM_THREADS=4
+export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
 
 # Project name for prompt
 export project_name="voice_env"
