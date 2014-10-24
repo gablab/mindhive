@@ -115,3 +115,23 @@ source ~/.env/.rtsz_environment
 
 }
 
+function read_env()
+{
+
+source ~/.env/.read_environment
+
+}
+
+function ef4_env()
+{
+
+source ~/.env/.ef4_environment
+
+}
+
+function simba_env()
+{
+
+source ~/.env/.simba_environment
+
+}	
