@@ -77,9 +77,16 @@ source ~/.env/.rhythm_ants_environment
 
 function BILD_env()
 {
+source ~/.env/.BILD_env
+}
+function tracula_cross()
+{
+source ~/.env/.tracula_cross_env
+}
 
-source ~/.env/.BILD_environment
-
+function tracula_env()
+{
+source ~/.env/.tracula_env
 }
 
 function lap_env()
