@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Source Nipype, FSL, Freesurfer
+#source /software/python/setup-nipype-0.7.sh
+module add openmind/fsl/5.0.7
+module add openmind/freesurfer/5.3.0
+module add openmind/git
+
+# add PATHs
+#export ANTSPATH=/software/ANTS/versions/140107
+#export DTIPrepPATH=/software/DTIPrep/130630
+#export PATH=$DTIPrepPATH:$ANTSPATH:$PATH
+#export PATH=/software/afni:$PATH
+
+module add openmind/miniconda/3.3.0
+export CONDA_ENVS_PATH=/om/user/satra/envs
+source activate testenv
+
+# Freesurfer
+# export SUBJECTS_DIR=/mindhive/xnat/surfaces/sad
+
+# Multithreading
+export MKL_NUM_THREADS=4
+export OMP_NUM_THREADS=4
+
+# Mindboggle
+MINDBOGGLE_TOOLS=/om/user/satra/software_builds/mindboggle/mindboggle_tools/bin
+export MINDBOGGLE_TOOLS
+export PATH=$PATH:$MINDBOGGLE_TOOLS
+
+# Project name for prompt
+export project_name="SDEV"
+module add mit/matlab/2013a
+
+module add openmind/afni/2014.08.28
+module add openmind/c3d/1.0.0
+module add openmind/ants/2.1.0-1.c0c854
+
+
