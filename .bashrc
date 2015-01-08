@@ -30,8 +30,10 @@ fi
 
 
 # Aliases
-alias ls="ls --color=auto"
-
+#alias ls="ls --color=auto"
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFh'
 # Project specific environments
 source ~/.projects
 source ~/.custom_env

@@ -13,7 +13,7 @@ export CONDA_ENVS_PATH=/om/project/voice/env/
 source activate voice_env 
 
 # Multithreading
-export MKL_NUM_THREADS=4
+export MKL_NUM_THREADS=1
 export OMP_NUM_THREADS=4
 export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
 
@@ -21,4 +21,10 @@ export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
 export project_name="voice_env"
 subjdir=/om/project/voice/mri/surfaces/
 export SUBJECTS_DIR=$subjdir
+export LD_LIBRARY_PATH=/om/user/satra/projects/SAD/scripts/lib/:$LD_LIBRARY_PATH
+module add netcdf/gcc/64/4.3.1.1
+module add cuda55/toolkit/5.5.22
+
+export LD_LIBRARY_PATH=/om/user/zqi/tool/:$LD_LIBRARY_PATH
+module add hdf5_18/1.8.12
 
