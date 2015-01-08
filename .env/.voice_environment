@@ -1,0 +1,30 @@
+#!/bin/bash
+
+
+module add mit/matlab/2013a
+module add openmind/ants/2.1.0-1.c0c854
+module add openmind/freesurfer/5.3.0 
+module add openmind/fsl/5.0.7
+module add openmind/git/1.9.3
+module add openmind/c3d/1.0.0
+
+module add openmind/miniconda/3.7.0
+export CONDA_ENVS_PATH=/om/project/voice/env/
+source activate voice_env 
+
+# Multithreading
+export MKL_NUM_THREADS=1
+export OMP_NUM_THREADS=4
+export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
+
+# Project name for prompt
+export project_name="voice_env"
+subjdir=/om/project/voice/mri/surfaces/
+export SUBJECTS_DIR=$subjdir
+export LD_LIBRARY_PATH=/om/user/satra/projects/SAD/scripts/lib/:$LD_LIBRARY_PATH
+module add netcdf/gcc/64/4.3.1.1
+module add cuda55/toolkit/5.5.22
+
+export LD_LIBRARY_PATH=/om/user/zqi/tool/:$LD_LIBRARY_PATH
+module add hdf5_18/1.8.12
+
