@@ -127,3 +127,11 @@ function omdev_env()
 
 source ~/.env/.omdev_environment
 }
+
+function read_env()
+{
+
+source ~/.env/.read_environment
+}
+
+
