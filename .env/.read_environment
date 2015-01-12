@@ -1,0 +1,48 @@
+#!/bin/bash
+
+#read_env 12/18/2014
+
+
+# SET HELPFUL ENVIRONMENT FEATURES / VARIABLES
+umask 0002
+alias ls="ls --color=auto"
+export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
+
+
+# SET UP MATLAB
+
+module add mit/matlab/2013a	
+
+alias matlab="matlab -singleCompThread"
+
+
+# SET UP FREESURFER 5.1.0, FSL
+
+module add openmind/freesurfer/5.3.0	
+module add openmind/fsl/5.0.7 	
+
+export SUBJECTS_DIR=/om/user/annepark/READ/READ_freesurfer/Analysis/freesurfer 	
+echo "Setting SUBJECTS_DIR to $SUBJECTS_DIR"
+
+
+# SET UP ANTS
+
+module add openmind/ants/2.1.0-1.c0c854
+
+
+# SET UP PYTHON
+
+module add openmind/miniconda/3.7.0	
+export CONDA_ENVS_PATH=/om/user/annepark/READ/	
+source activate READ_py
+
+
+# SET UP MRICRON
+
+module add openmind/mricron/13.06.06
+
+
+# PROJECT NAME
+export project_name="READ" 
+
+module add openmind/c3d/1.0.0
