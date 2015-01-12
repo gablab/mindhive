@@ -45,3 +45,4 @@ module add openmind/mricron/13.06.06
 # PROJECT NAME
 export project_name="READ" 
 
+module add openmind/c3d/1.0.0
