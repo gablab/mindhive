@@ -28,3 +28,4 @@ module add cuda55/toolkit/5.5.22
 export LD_LIBRARY_PATH=/om/user/zqi/tool/:$LD_LIBRARY_PATH
 module add hdf5_18/1.8.12
 
+module add openmind/mricron/13.06.06

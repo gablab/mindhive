@@ -125,3 +125,8 @@ function voice_env()
 {
 source ~/.env/.voice_environment
 }
+
+function mem_env()
+{
+source ~/.env/.mem_environment
+}
