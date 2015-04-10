@@ -134,4 +134,11 @@ function read_env()
 source ~/.env/.read_environment
 }
 
+function raise_env()
+{
+
+source ~/.env/.RAISE_environment
+}
+
+
 
