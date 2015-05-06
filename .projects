@@ -115,3 +115,9 @@ source ~/.env/.rtsz_environment
 
 }
 
+function cccbauer_env()
+{
+
+source ~/.env/.cccbauer_environment
+
+}
