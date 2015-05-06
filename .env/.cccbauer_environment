@@ -1,0 +1,6 @@
+function cccbauer_env()
+{
+
+source ~/.env/.cccbauer_environment
+
+}
