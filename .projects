@@ -121,3 +121,10 @@ function cccbauer_env()
 source ~/.env/.cccbauer_environment
 
 }
+
+function rtdmn_env()
+{
+
+source ~/.env/.rtdmn_environment
+
+}

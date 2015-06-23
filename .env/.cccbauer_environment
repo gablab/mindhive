@@ -28,5 +28,5 @@ export MINDBOGGLE_TOOLS
 export PATH=$PATH:$MINDBOGGLE_TOOLS
 
 # Project name for prompt
-export project_name="cccbauer1"
+export project_name="cccbauer"
 module add matlab
