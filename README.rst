@@ -83,6 +83,9 @@ Commit and push the file up to your repository
 
 Test and send a pull request to gablab/mindhive for someone else to review and merge your changes. 
 
+https://github.com/gablab/mindhive/pulls
+
+
 Adding SPM path
 ^^^^^^^^^^^^^^^
 

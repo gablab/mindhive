@@ -1,0 +1,6 @@
+. fss 5.3.0
+subjdir=/mindhive/xnat/surfaces/EF4
+echo "Setting subjects dir to $subjdir"
+export SUBJECTS_DIR=$subjdir
+
+export project_name="ef4"
