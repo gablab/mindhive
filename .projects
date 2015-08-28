@@ -125,3 +125,35 @@ function voice_env()
 {
 source ~/.env/.voice_environment
 }
+
+function read_env()
+{
+
+source ~/.env/.read_environment
+
+}
+
+function ef4_env()
+{
+
+source ~/.env/.ef4_environment
+
+}
+
+function simba_env()
+{
+
+source ~/.env/.simba_environment
+
+}	
+
+
+function cccbauer_env()
+{
+
+source ~/.env/.cccbauer_environment
+
+}
+
+
+
