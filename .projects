@@ -1,5 +1,10 @@
 #! /bin/bash
 
+function .mg_env()
+{
+source ~/.env/.mg_env
+}
+
 function te_env()
 {
 source ~/.env/.testeffect_environment
