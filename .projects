@@ -2,7 +2,7 @@
 
 function .mg_env()
 {
-source ~/.env/.mg_env
+source ~/.env/.mg_environment
 }
 
 function te_env()
