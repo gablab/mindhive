@@ -115,6 +115,17 @@ source ~/.env/.rtsz_environment
 
 }
 
+function omdev_env()
+{
+
+source ~/.env/.omdev_environment
+}
+
+function voice_env()
+{
+source ~/.env/.voice_environment
+}
+
 function read_env()
 {
 
@@ -135,7 +146,7 @@ function simba_env()
 source ~/.env/.simba_environment
 
 }	
-<<<<<<< HEAD
+
 
 function cccbauer_env()
 {

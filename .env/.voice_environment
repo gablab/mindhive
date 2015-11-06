@@ -1,0 +1,36 @@
+#!/bin/bash
+
+
+module add mit/matlab/2015a
+module add openmind/ants/2.1.0-1.c0c854
+module add openmind/freesurfer/5.3.0 
+module add openmind/fsl/5.0.7
+module add openmind/git/1.9.3
+module add openmind/c3d/1.0.0
+
+module add openmind/mricron/13.06.06
+
+
+#module add openmind/miniconda/3.7.0
+#export CONDA_ENVS_PATH=/om/project/voice/env/
+#source activate voice_env 
+module add openmind/miniconda/3.7.0
+export CONDA_ENVS_PATH=/om/user/gr21783/envs_python/
+source activate voice7
+
+# Multithreading
+export MKL_NUM_THREADS=4
+export OMP_NUM_THREADS=4
+export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
+
+# Project name for prompt
+export project_name="voice7"
+#subjdir=/om/project/voice/mri/surfaces/
+subjdir=/om/project/voice/processedData/fsdata/
+export SUBJECTS_DIR=$subjdir
+
+#https://github.mit.edu/MGHPCC/OpenMind/wiki/Cookbook:-Getting-started#matlab
+module add openmind/srun.x11/v1
+### This opens up an interactive node:  srun.x11 -n1 -p om_interactive
+
+module add hdf5_18/1.8.12
