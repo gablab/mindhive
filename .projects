@@ -1,8 +1,8 @@
 #! /bin/bash
 
-function .mg_env()
+function vd_env()
 {
-source ~/.env/.mg_environment
+source ~/.env/.visualdata_environment
 }
 
 function te_env()
