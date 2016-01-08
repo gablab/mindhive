@@ -82,16 +82,9 @@ source ~/.env/.rhythm_ants_environment
 
 function BILD_env()
 {
-source ~/.env/.BILD_env
-}
-function tracula_cross()
-{
-source ~/.env/.tracula_cross_env
-}
 
-function tracula_env()
-{
-source ~/.env/.tracula_env
+source ~/.env/.BILD_environment
+
 }
 
 function lap_env()
@@ -127,27 +120,31 @@ source ~/.env/.rtsz_environment
 
 }
 
-function omdev_env()
-{
-
-source ~/.env/.omdev_environment
-}
-
 function read_env()
 {
 
 source ~/.env/.read_environment
-}
 
-function simba_env()
-{
-
-source ~/.env/.simba_environment
 }
 
 function ef4_env()
 {
 
 source ~/.env/.ef4_environment
+
 }
 
+function simba_env()
+{
+
+source ~/.env/.simba_environment
+
+}	
+<<<<<<< HEAD
+
+function cccbauer_env()
+{
+
+source ~/.env/.cccbauer_environment
+
+}

@@ -15,7 +15,7 @@ alias matlab="matlab -singleCompThread"
 # SET UP FREESURFER 5.1.0
 source /software/common/bin/fss 5.1.0 > /dev/null
 source /etc/fsl/fsl.sh
-export SUBJECTS_DIR=/gablab/p/READ/Analysis/freesurfer
+export SUBJECTS_DIR=/mindhive/xnat/surfaces/SIMBA/
 
 export PATH=/software/ANTS/versions/120222/bin/:$PATH
 export ANTSPATH=/software/ANTS/versions/120222/bin/
@@ -26,4 +26,4 @@ export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
 export PATH=/software/python/anaconda/bin:$PATH
 source activate /gablab/p/READ/Analysis/READ_py
 #project name
-export project_name="READ"
+export project_name="SIMBA"

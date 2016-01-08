@@ -1,53 +1,6 @@
-#!/bin/bash
+. fss 5.3.0
+subjdir=/mindhive/xnat/surfaces/EF4
+echo "Setting subjects dir to $subjdir"
+export SUBJECTS_DIR=$subjdir
 
-# ef4_env 4/3/2015
-# annepark
-
-
-# SET HELPFUL ENVIRONMENT FEATURES / VARIABLES
-umask 0002
-alias ls="ls --color=auto"
-export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
-
-
-# SET UP MATLAB
-
-module add mit/matlab/2013a	
-
-alias matlab="matlab -singleCompThread"
-
-
-# SET UP FREESURFER 5.3.0, FSL
-
-module add openmind/freesurfer/5.3.0	
-module add openmind/fsl/5.0.8 	
-
-export SUBJECTS_DIR=/mindhive/xnat/surfaces/EF4/
-echo "Setting SUBJECTS_DIR to $SUBJECTS_DIR"
-
-
-# SET UP ANTS
-
-module add openmind/ants/2.1.0-1.c0c854
-
-
-# SET UP PYTHON
-
-module add openmind/miniconda/3.7.0	
-export CONDA_ENVS_PATH=/om/user/annepark/EF4/env/	
-source activate ef4_py
-
-
-# SET UP MRICRON
-
-module add openmind/mricron/13.06.06
-
-
-# PROJECT NAME
-export project_name="EF4" 
-
-
-# ADDITIONAL MODULES
-module add openmind/c3d/1.0.0
-module add openmind/git/1.9.3
-module add openmind/srun.x11/v1
+export project_name="ef4"
