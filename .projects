@@ -1,5 +1,15 @@
 #! /bin/bash
 
+function mg_env()
+{
+source ~/.env/.mg_environment
+}
+
+function test_env()
+{
+source ~/.env/.mgtest_environment
+}
+
 function vd_env()
 {
 source ~/.env/.visualdata_environment
@@ -82,9 +92,16 @@ source ~/.env/.rhythm_ants_environment
 
 function BILD_env()
 {
+source ~/.env/.BILD_env
+}
+function tracula_cross()
+{
+source ~/.env/.tracula_cross_env
+}
 
-source ~/.env/.BILD_environment
-
+function tracula_env()
+{
+source ~/.env/.tracula_env
 }
 
 function lap_env()
@@ -120,31 +137,27 @@ source ~/.env/.rtsz_environment
 
 }
 
+function omdev_env()
+{
+
+source ~/.env/.omdev_environment
+}
+
 function read_env()
 {
 
 source ~/.env/.read_environment
-
-}
-
-function ef4_env()
-{
-
-source ~/.env/.ef4_environment
-
 }
 
 function simba_env()
 {
 
 source ~/.env/.simba_environment
+}
 
-}	
-<<<<<<< HEAD
-
-function cccbauer_env()
+function ef4_env()
 {
 
-source ~/.env/.cccbauer_environment
-
+source ~/.env/.ef4_environment
 }
+
