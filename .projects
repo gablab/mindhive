@@ -1,15 +1,5 @@
 #! /bin/bash
 
-function mg_env()
-{
-source ~/.env/.mg_environment
-}
-
-function test_env()
-{
-source ~/.env/.mgtest_environment
-}
-
 function vd_env()
 {
 source ~/.env/.visualdata_environment
