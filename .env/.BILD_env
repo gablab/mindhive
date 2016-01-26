@@ -1,0 +1,42 @@
+#!/bin/bash
+
+
+#Project specific enviorments 
+source ~/.projects
+#source ~/.custom_env
+
+#Source Nipype, FSL, Freesurfer
+#source /software/python/setup-nipype-0.7sh
+module add openmind/fsl/5.0.6 #use 5.0.7 for openfmri analysis
+module add openmind/freesurfer/5.3.0
+module add mit/matlab/2014a
+module add openmind/srun.x11/v1
+module add openmind/git/1.9.3
+module add hdf5_18/1.8.12
+
+# Setup project specific subj dir
+export SUBJECTS_DIR=/mindhive/xnat/surfaces/BILD/Kids
+
+export MKL_NUM_THREADS=4
+export ITK_GLOBAL_DEFAULT_NUMBER_CF_THREADS=1
+
+# User specific aliases and functions
+module load gcc/4.8.2
+module load slurm/14.03.0
+module load netcdf/gcc/64/4.3.1.1
+export LD_LIBRARY_PATH=/om/user/zqi/tool/:$LD_LIBRARY_PATH
+module add openmind/mricron/13.06.06
+module add openmind/miniconda/3.7.0
+module add openmind/ants/2.1.0-1.c0c854
+module add openmind/openblas/0.2.9.rc2-singlethread
+module add cuda55/toolkit/5.5.22 # this one specifically for bedpostX
+module add openmind/c3d/1.0.0
+
+#export CONDA_ENVS_PATH=/om/user/zqi/projects/bips_env
+#source activate /om/user/zqi/projects/bips_env
+export CONDA_ENVS_PATH=/om/project/voice/env/
+source activate voice_env
+
+alias matlab="matlab -singleCompThread"
+
+export project_name="BILD"

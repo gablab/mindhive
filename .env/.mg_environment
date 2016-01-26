@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#mg_environment 09/04/2015
+
+module add openmind/fsl/5.0.8
+module add openmind/git/1.9.3
+module add openmind/freesurfer/5.3.0
+module add openmind/python/2.7/numpy/1.8.1
+module add openmind/python/2.7/scipi/0.13.3
+module add openmind/miniconda/3.9.1
+module add mit/matlab/2015a
+
+export CONDA_ENVS_PATH=/om/user/mathiasg/.env
+source activate mg_env
+export project_name="mg_env"

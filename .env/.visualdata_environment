@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#visualdata_environment 10/23/2015
+
+module add openmind/fsl/5.0.8
+module add openmind/git/1.9.3
+module add openmind/freesurfer/5.3.0
+module add mit/matlab/2015a
+
+module add openmind/miniconda/3.9.1
+export CONDA_ENVS_PATH=/om/user/mathiasg/envs/vd_env
+source activate /om/user/mathiasg/envs/vd_env
+export project_name="vd_env"
