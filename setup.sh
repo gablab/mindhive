@@ -16,7 +16,7 @@ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O mi
 CONDAPATH=/om2/user/$(whoami)/miniconda
 bash miniconda.sh -b -p $CONDAPATH
 echo '# Miniconda3' >> ~/.bashrc
-echo export PATH=${CONDAPATH}/bin:$PATH >> ~/.bashrc
+echo 'export PATH="'${CONDAPATH}'/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 
 # ======= SETUP PYTHON =========
