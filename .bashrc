@@ -6,18 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-module load gcc
-module load slurm 
-
-#module add openmpi/gcc/64/1.6.5 
-#module add openblas/sandybridge/0.2.6 
-#module add lapack/gcc/64/3.4.2
-#module add fftw3/openmpi/gcc/64/3.3.3 
-#module add intel-cluster-checker/2.1.1 
-#module add intel-cluster-runtime/intel64/3.6
-
-# Export PATHs
-export PATH=$HOME/bin:$PATH
+module add openmind/git/2.7.0
 
 # Setup a fancy shell command prompt:
 prompt1="\[\e[0;33m\][\A]\[\e[0m\]" # Display the time in the bash prompt
@@ -28,12 +17,12 @@ if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 
-
 # Aliases
+# You can assign shortcuts to commands you use a lot here
 alias ls="ls --color=auto"
 
 # Project specific environments
 source ~/.projects
-source ~/.custom_env
 
-
+# load modules
+my_env
