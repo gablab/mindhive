@@ -22,6 +22,10 @@ If any authentication message appears, type `yes`. This will happen on your firs
 >>> cd ~/mindhive
 >>> bash setup.sh
 
+4. Activate your changes and you are finished!
+
+>>> source ~/.bashrc
+
 ----------------------------------------
 Additional resources
 ----------------------------------------
