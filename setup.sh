@@ -6,7 +6,7 @@ echo "Setting up essential files"
 fls=(envs .bashrc .bash_profile .projects .nodeload)
 for fl in ${fls[@]}; do
   if [ -f ${fl} ] || [ -d ${fl} ]; then
-    echo mv $(realpath ${fl}) ~/${fl}
+    mv $(realpath ${fl}) ~/${fl}
   fi
 done
 
